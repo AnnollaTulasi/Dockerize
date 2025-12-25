@@ -25,3 +25,5 @@ echo "🔹 Verifying Docker installation..."
 docker --version
 
 echo "🔹 Docker installed successfully 🎉"
+
+sudo usermod -aG docker $USER
